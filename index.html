@@ -27,31 +27,16 @@
     >
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img
-            src="asset/logo-title.png"
-            alt="Logo"
-            width="30"
-            class="d-inline-block align-text-top me-3"
-          />
+          <img src="asset/logo-title.png" alt="Logo" width="30" class="d-inline-block align-text-top me-3"/>
           Rumah Impian
         </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item mx-2">
-              <a class="nav-link active" aria-current="page" href="#"
-                >BERANDA</a
-              >
+              <a class="nav-link active" aria-current="page" href="#">BERANDA</a>
             </li>
             <li class="nav-item mx-2">
               <a class="nav-link" href="#">LAYANAN</a>
@@ -88,16 +73,8 @@
           </div>
         </div>
 
-        <img
-          src="asset/home-banner.png"
-          alt=""
-          class="position-absolute end-0 bottom-0 img-hero"
-        />
-        <img
-          src="asset/aksen-home.png"
-          alt=""
-          class="aksen-img h-100 position-absolute top-0 start-0"
-        />
+        <img src="asset/home-banner.png" alt="" class="position-absolute end-0 bottom-0 img-hero"/>
+        <img src="asset/aksen-home.png" alt="" class="aksen-img h-100 position-absolute top-0 start-0"/>
       </div>
     </section>
 
@@ -107,9 +84,7 @@
         <div class="row">
           <div class="col-12 text-center">
             <h2>Layanan Kami</h2>
-            <span class="sub-title"
-              >Rumah impian hadir menjadi solusi bagi kamu</span
-            >
+            <span class="sub-title">Rumah impian hadir menjadi solusi bagi kamu</span>
           </div>
         </div>
 
@@ -117,11 +92,7 @@
           <div class="col-md-4 text-center">
             <div class="card-layanan">
               <div class="circle-icon position-relative mx-auto">
-                <img
-                  src="asset/house-1.png"
-                  alt=""
-                  class="position-absolute top-50 start-50 translate-middle"
-                />
+                <img src="asset/house-1.png" alt="" class="position-absolute top-50 start-50 translate-middle"/>
               </div>
               <h3 class="mt-4">Poperty Baru</h3>
               <p class="mt-3">
@@ -147,7 +118,6 @@
               </p>
             </div>
           </div>
-
           <div class="col-md-4 text-center">
             <div class="card-layanan">
               <div class="circle-icon position-relative mx-auto">
@@ -167,14 +137,13 @@
         </div>
       </div>
     </section>
-
     <!-- Seach Section -->
     <section id="search" class="d-flex align-items-center">
       <div class="container">
         <div class="row">
           <div class="col-12 text-center">
             <h2 class="">Temukan Rumah Impianmu</h2>
-            <p class="">sekarang Anda dapat menghemat semua hal stres, waktu, dan biaya tersembunyi, dengan ratusan rumah untuk anda</p>
+            <p>sekarang Anda dapat menghemat semua hal stres, waktu, dan biaya tersembunyi, dengan ratusan rumah untuk anda</p>
           </div>
 
           <div class="col-10 mx-auto mt-5">
@@ -189,13 +158,14 @@
                 <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#property-baru" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Property Baru</button>
               </li>
             </ul>
+
             <div class="tab-content" id="myTabContent">
               <!-- Jual -->
               <div class="tab-pane fade show active" id="jual" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
                 <!-- Dropdown tipe rumah -->
                 <div class="input-group input-cari mb-3">
                   <button class="button-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="asset/home-seach.png" alt="">
+                    <img src="asset/home-seach.png" alt="" class="d-block d-lg-inline mx-auto"> <!--ini untuk responsive-->
                     Tipe Rumah</button>
                   <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="#">Action</a></li>
@@ -206,7 +176,7 @@
                   </ul>
                   <!-- Dropdown range harga -->
                   <button class="button-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="asset/money.png" alt="">
+                    <img src="asset/money.png" alt="" class="d-block d-lg-inline mx-auto">
                     Range Harga</button>
                   <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="#">Action</a></li>
@@ -293,9 +263,34 @@
               <h2>Rekomendasi Rumah Untuk Mu</h2>
             </div>
           </div>
-
           <div class="row">
-            <div class="col-4 mb-4">
+            <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+              <div class="card p-2" style="width: 22rem;">
+                <img src="asset/home-1.png" alt="">
+                <div class="card-body">
+                  <h4>IDR.200.000.000</h4>
+                  <p class="mb-4 lh-sm">Jl. Soekarno Hatta No.1 <br> <span class="text-danger">Sewa</span></p>
+                </div>
+
+                <div class="card-fasilitas d-flex justify-content-between px-4">
+                  <span>
+                    <img src="asset/mdi_bed.png" alt=""> 3
+                    <p>Kamar Tidur</p>
+                  </span>
+
+                  <span>
+                    <img src="asset/fa-solid_bath.png" alt=""> 4
+                    <p>Kamar Mandi</p>
+                  </span>
+
+                  <span>
+                    <img src="asset/globe.png" alt=""> 360 m
+                    <p>Luas Rumah</p>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
               <div class="card p-2" style="width: 22rem;">
                 <img src="asset/home-1.png" alt="">
                 <div class="card-body">
@@ -321,33 +316,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4 mb-4">
-              <div class="card p-2" style="width: 22rem;">
-                <img src="asset/home-1.png" alt="">
-                <div class="card-body">
-                  <h4>IDR.200.000.000</h4>
-                  <p class="mb-4 lh-sm">Jl. Soekarno Hatta No.1 <br> <span class="text-danger">Sewa</span></p>
-                </div>
-  
-                <div class="card-fasilitas d-flex justify-content-between px-4">
-                  <span>
-                    <img src="asset/mdi_bed.png" alt=""> 3
-                    <p>Kamar Tidur</p>
-                  </span>
-
-                  <span>
-                    <img src="asset/fa-solid_bath.png" alt=""> 4
-                    <p>Kamar Mandi</p>
-                  </span>
-
-                  <span>
-                    <img src="asset/globe.png" alt=""> 360 m
-                    <p>Luas Rumah</p>
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div class="col-4 mb-4">
+            <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
               <div class="card p-2" style="width: 22rem;">
                 <img src="asset/image 11 (1).png" alt="">
                 <div class="card-body">
@@ -373,7 +342,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4 mb-4">
+            <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
               <div class="card p-2" style="width: 22rem;">
                 <img src="asset/image 10.png" alt="">
                 <div class="card-body">
@@ -399,7 +368,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4 mb-4">
+            <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
               <div class="card p-2" style="width: 22rem;">
                 <img src="asset/image 12.png" alt="">
                 <div class="card-body">
@@ -425,7 +394,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4 mb-4">
+            <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
               <div class="card p-2" style="width: 22rem;">
                 <img src="asset/image 14.png" alt="">
                 <div class="card-body">
@@ -455,27 +424,62 @@
       </div>
     </section>
 
-    <!-- Fitur Section -->
-    <section id="fitur" class="mt-5 overflow-hidden">
+    <!-- Fasiltas Section -->
+    <section id="fitur" class="mt-5 overflow-hidden">  <!-- overflow-hidden nanti dikasihnya kalo udah ada card-->
       <div class="container">
         <div class="row mb-4">
-          <div class="col-9">
+          <div class="col-lg-9 col-md-12 text-center text-lg-start"> <!--ini responsif 922-->
             <h2>Fitur Rumah</h2>
           </div>
-          <div class="col-3">
+          <div class="col-lg-3 col-md-12"> 
             <button class="button-fitur">Lihat Semua..
               <img src="asset/arrow-home.png" alt="" class="ms-4">
             </button>
           </div>
         </div>
 
-        <div class="container position-relative mt-5">
+        <div class="container position-relative mt-5"> <!--  baru kasih relative disini -->
           <div class="row">
-            <div class="col-12 d-flex justify-content-start">
+            <div class="col-12 d-flex justify-content-start"> 
+
+              <div class="card-fitur me-3 position-relative"> <!--  ini yang dicopy banyak -->
+                <img src="asset/image 18.png" alt="">
+                <div class="overlay position-absolute top-0 bottom-0 end-0 start-0 w-100 h-100"> <!--  kasih absolute dulu dibawah-->
+                  <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
+                    <h5>Kamar Tidur</h5>
+                    <span>Rumah minimalis Type-A2</span>
+                    <h6>IDR.200jt</h6>
+                    <button>Lihat Rumah</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-fitur me-3 position-relative">
+                <img src="asset/rumah-fitur1.png" alt="">
+                <div class="overlay position-absolute top-0 bottom-0 end-0 start-0 w-100 h-100">
+                  <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
+                    <h5>Kamar Tidur</h5>
+                    <span>Rumah minimalis Type-A2</span>
+                    <h6>IDR.200jt</h6>
+                    <button>Lihat Rumah</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-fitur me-3 position-relative">
+                <img src="asset/rumah-fitur1.png" alt="">
+                <div class="overlay position-absolute top-0 bottom-0 end-0 start-0 w-100 h-100">
+                  <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
+                    <h5>Kamar Tidur</h5>
+                    <span>Rumah minimalis Type-A2</span>
+                    <h6>IDR.200jt</h6>
+                    <button>Lihat Rumah</button>
+                  </div>
+                </div>
+              </div>
 
               <div class="card-fitur me-3 position-relative">
                 <img src="asset/image 18.png" alt="">
-
                 <div class="overlay position-absolute top-0 bottom-0 end-0 start-0 w-100 h-100">
                   <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
                     <h5>Kamar Tidur</h5>
@@ -485,46 +489,10 @@
                   </div>
                 </div>
               </div>
-              <div class="card-fitur me-3 position-relative">
-                <img src="asset/rumah-fitur1.png" alt="">
-
-                <div class="overlay position-absolute top-0 bottom-0 end-0 start-0 w-100 h-100">
-                  <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
-                    <h5>Kamar Tidur</h5>
-                    <span>Rumah minimalis Type-A2</span>
-                    <h6>IDR.200jt</h6>
-                    <button>Lihat Rumah</button>
-                  </div>
-                </div>
-              </div>
-              <div class="card-fitur me-3 position-relative">
-                <img src="asset/rumah-fitur1.png" alt="">
-
-                <div class="overlay position-absolute top-0 bottom-0 end-0 start-0 w-100 h-100">
-                  <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
-                    <h5>Kamar Tidur</h5>
-                    <span>Rumah minimalis Type-A2</span>
-                    <h6>IDR.200jt</h6>
-                    <button>Lihat Rumah</button>
-                  </div>
-                </div>
-              </div>
-              <div class="card-fitur me-3 position-relative">
-                <img src="asset/image 18.png" alt="">
-
-                <div class="overlay position-absolute top-0 bottom-0 end-0 start-0 w-100 h-100">
-                  <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
-                    <h5>Kamar Tidur</h5>
-                    <span>Rumah minimalis Type-A2</span>
-                    <h6>IDR.200jt</h6>
-                    <button>Lihat Rumah</button>
-                  </div>
-                </div>
-              </div>
-
 
             </div>
           </div>
+
           <button class="button-arrow-left position-absolute start-0 top-50 translate-middle-y">
             <img src="asset/kiri.png" alt="">
           </button>
@@ -540,36 +508,33 @@
     <section id="contact">
       <div class="container-fluid overlay h-100">
         <div class="container">
-          <div class="row">
-            <div class="col-md-6">
+          <div class="row"> <!--ini row-->
+            <div class="col-md-6">  <!--ini col pertama-->
               <h3>Butuh Konsultasi..? Silahkan kontak kami Kami Siap Membantu</h3>
               <div class="kontak">
                 <h6>Kontak</h6>
-
                 <div class="mb-3 d-flex align-items-center">
                   <div>
                     <img src="asset/address.png" alt="">
                   </div>
                   <a href="">Jl. Pelajar Pejuang 123 Majalaya Bandung Indonesia</a>
                 </div>
-
                 <div class="mb-3">
                   <img src="asset/Group.png" alt="">
                   <a href="">022-6545-2041</a>
                 </div>
-
                 <div class="mb-3">
                   <img src="asset/e-mail.png" alt="">
                   <a href="">rumahimpian@gmail.com</a>
                 </div>
               </div>
-
               <h6>Social Media</h6>
-                <a href="#" class="me-3"><img src="asset/facebook.png" alt=""></a>
-                <a href="#" class="me-3"><img src="asset/twitter.png" alt=""></a>
-                <a href="#" class="me-3"><img src="asset/instagram.png" alt=""></a>
+                <a href="#" class="me-lg-3 me-1"><img src="asset/facebook.png" alt=""></a>
+                <a href="#" class="me-lg-3 me-1"><img src="asset/twitter.png" alt=""></a>
+                <a href="#" class="me-lg-3 me-1"><img src="asset/instagram.png" alt=""></a>
                 <a href="#" class="link-rumah">Rumah Impian</a>
-            </div>
+            </div>  <!--penutup col pertama-->
+
             <div class="col-md-6">
               <div class="card-contact w-100">
                 <form>
@@ -598,11 +563,11 @@
       <div class="container-fluid">
         <div class="container ">
           <div class="row">
-            <div class="col-md-7 d-flex align-items-center">
+            <div class="col-md-7 d-flex align-items-center justify-content-md-start justify-content-center"> <!--ini responsife-->
               <img src="asset/logo-title.png" alt="">
               <a  class="ms-3">Rumah Impian</a>
             </div>
-            <div class="col-md-5 d-flex justify-content-evenly">
+            <div class="col-md-5 d-flex justify-content-evenly justify-content-center">
               <a href="">Beranda</a>
               <a href="">Layanan</a>
               <a href="">Fitur</a>
@@ -611,12 +576,13 @@
           </div>
           <div class="row position-absolute copyright start-50 translate-middle">
             <div class="col-12">
-              <p>Copyright bg Creative Academy All Right Reserved.</p>
+              <p class="text-center">Copyright bg Creative Academy All Right Reserved.</p>
             </div>
           </div>
         </div>
       </div>
     </footer>
+    <script src="js/scsript.js"></script>
     <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

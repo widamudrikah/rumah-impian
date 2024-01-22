@@ -13,6 +13,17 @@ body {
   z-index: 3;
 }
 
+/* NAVBAR COLOR*/
+
+.nav-color {
+  background-color: #00985B;
+  transition: all ease-in-out .3s;
+}
+
+.bg-transparent {
+  transition: all ease-in-out .3s;
+}
+
 * {
   z-index: 2;
 }
@@ -125,7 +136,6 @@ h2 {
 
   transition: all .1s ease-in;
 }
-
 .card-layanan h3 {
   color: var(--pr-color);
   font-size: 24px;
@@ -138,9 +148,6 @@ h2 {
 
   transition: all .2s ease-in;
 }
-
-
-
 /* Hover */
 .card-layanan:hover {
   width: 100%;
@@ -150,7 +157,6 @@ h2 {
   box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
   transition: all .2s ease-in;
 }
-
 .card-layanan:hover .circle-icon {
   background-color: #fff;
   transition: all .2s ease-in;
@@ -299,7 +305,7 @@ line-height: normal;
 }
 
 
-/* Card Fasilitas */
+/* Fitur Section*/
 .button-fitur {
   width: 238px;
   height: 63px;
@@ -331,7 +337,6 @@ line-height: normal;
   font-size: 24px;
   font-weight: 600;
 }
-
 .card-fitur button {
   background-color: var(--pr-color);
   color: #fff;
@@ -341,18 +346,15 @@ line-height: normal;
   font-size: 18px;
   font-weight: 500;
 }
-
 .card-fitur .overlay {
   background-color: rgba(0, 0, 0, 0);
   opacity: 0;
   transition: all ease-in-out .3s;
 }
-
 .card-fitur .overlay:hover {
   background-color: rgba(0, 0, 0, 0.6);
   opacity: 1;
 }
-
 
 .button-arrow-left {
   border: none;
@@ -379,15 +381,12 @@ line-height: normal;
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 #contact .overlay {
   background: rgba(0, 0, 0, 0.50);
 }
-
 #contact .container {
   padding: 148px 0 148px 0;
 }
-
 #contact h3 {
   color: #FFF;
 font-size: 40px;
@@ -395,7 +394,6 @@ font-weight: 600;
 line-height: normal;
 width: 441px;
 }
-
 #contact h6 {
   color: #FFF;
   font-size: 18px;
@@ -403,7 +401,6 @@ width: 441px;
   line-height: normal;
   margin: 19px 0 14px 0;
 }
-
 .kontak a {
   color: #FFF;
 font-size: 16px;
@@ -415,7 +412,6 @@ margin-left: 18px;
 width: 332px;
 display: inline-block;
 }
-
 .link-rumah {
   color: #FFF;
   font-size: 16px;
@@ -424,7 +420,6 @@ display: inline-block;
   line-height: 18px;
   text-decoration: none;
 }
-
 .card-contact {
   width: 100%;
   height: 445px;
@@ -432,7 +427,6 @@ display: inline-block;
   border-radius: 5px;
   padding: 52px 48px;
 }
-
 .card-contact h2 {
   color: #00985B;
 font-family: Poppins;
@@ -471,6 +465,8 @@ font-weight: 600;
 line-height: normal;
 }
 
+/* Footer */
+
 footer {
   width: 100%;
   height: 270px;
@@ -495,4 +491,106 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 text-decoration: none;
+}
+
+
+/* breakpoints */
+
+@media screen and (max-width : 922px){
+  .input-cari .button-secondary {
+     width: 120px;
+     font-size: 14px;
+     border-radius: 0;
+  }
+
+  .input-cari .button-primary {
+    font-size: 24px;
+    border-radius: 0 0 10px 10px !important;
+  }
+
+  .button-fitur {
+    width: 100%;
+  }
+
+  .button-primary {
+    display: block;
+    width: 100%;
+  }
+  .button-secondary {
+    display: block;
+    width: 100%;
+  }
+
+
+  #contact h3 {
+    font-size: 30px;
+    width: 100%;
+  }
+
+  .card-contact {
+    height: auto;
+    width: 100%;
+    margin-top: 42px;
+  }
+
+  .card-contact h2 {
+    font-size: 32px ;
+    line-height: 42px;
+    margin-bottom: 21px;
+  }
+
+}
+
+@media screen and (max-width : 576px) {
+  .img-hero {
+    width: 75%;
+    height: auto;
+  }
+  .hero-tagline h1 {
+    line-height: 52px;
+  }
+
+  h2 {
+    font-size: 34px;
+  }
+
+  .sub-title {
+    font-size: 16px;
+  }
+
+  .card-layanan {
+    margin:  15px 0 15px 0;
+  }
+
+  #search h2 {
+    font-size: 42px;
+    line-height: 52px;
+  }
+
+  #search p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .input-cari .button-secondary {
+    width: 50%;
+    height: 60px;
+    border-radius: 0;
+  }
+
+  .input-cari .button-primary {
+    height: 60px;
+    width: 30%;
+    font-size: 20px;
+    border-radius: 0;
+  }
+
+  .input-cari .form-control {
+    height: 60px;
+  }
+
+}
+
+@media screen and (max-width : 350px){
+  
 }
